@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    font-family:Arial;
+    border: border-box;
+    
+
+}
+.nav{
+    height: 60px;
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 60px;
+    width: 100px;
+
+}
+.add-icon{
+    display: flex;
+    align-self: center;
+    margin:10px 10px;
+
+    
+
+}
+
+.logo{
+    background-image:url(www.logo.amzaon.png);
+    width: 100%;
+    background-size:contain;
+    height: 50px;    
+}
+.border{
+    border: 1.5px solid transparent;
+    
+    
+}
+
+.border :hover{
+    border: 1.5px solid white;
+    
+}
+/**box2**/
+.add-first{
+    color: #ccc;
+    font-size: 1rem;
+    margin:5px;
+
+}
+.add-second{
+    font-size: 1rem;
+    margin: 5px;
+    
+}
+.address{
+    display: flex;
+    align-items: center;
+    margin:5px;
+}
+.search{
+    display: flex;
+    background-color: pink;
+    width: 650px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    border:none
+
+}
+.search :hover{
+    border: 2px solid orange;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgba(255, 200, 0, 0.923);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+    color: #0f1111;
+}
+/**box4**/
+span{
+    font-size: 0.7rem;
+}
+.nav-acc{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**box5**/
+.navcart i{
+    font-size: 35px;
+}
+.navcart{
+    font-size: 14px;
+    font-weight: 700;
+}
+/**panels**/
+.panel{
+    height: 40px;
+    background-color: #222222df;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.paneloption p{
+    display: inline;
+    margin: 10px;
+}
+.paneloption{
+    width: 70%;
+    font-size: 0.85rem;
+    margin: 10px;
+}
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/**hero section**/
+.hero{
+    background-image: url(www.image1.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 75%;
+    margin-bottom: 5%;
+    
+
+    
+}
+.hero-msg a{
+    color: #007185;
+}
+/**shopsection**/
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 80%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(25, 159, 159);
+}
+
+
+
+  .img{
+    height: 300px;
+    margin: 8px;
+    
+  }
+  .img-shop{
+    height: 300px;
+    margin: 8px;
+  }
